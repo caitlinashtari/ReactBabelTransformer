@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: block;
+  overflow: auto;
+  background-color: #f1f1f1;
+  color: #c7254e;
+  font-size: 28px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0px;
+  bottom: 40px;
+  height: 10vh;
+  width: 100%;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  box-sizing: border-box;
+}
+
+#output, textarea {
+  width: 50%;
+  margin: 0;
+  padding: 10px;
+  color: #222;
+  overflow: scroll;
+}
+
+textarea:focus {
+  outline: 0;
+}
